@@ -3,9 +3,9 @@ import Data from "../components/corsedata/page";
 
 const Home = () => {
   return (
-    <ProtectedRoute>
+    // <ProtectedRoute>
       <Data />
-    </ProtectedRoute>
+    // </ProtectedRoute>
   );
 };
 

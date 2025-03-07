@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -11,10 +11,13 @@
   "dependencies": {
     "@faker-js/faker": "^9.1.0",
     "@mui/icons-material": "^6.1.4",
+    "@react-google-maps/api": "^2.20.6",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.7.3",
     "next": "14.2.15",
+    "qrcode": "^1.5.4",
+    "qrcode.react": "^4.2.0",
     "react": "^18",
     "react-dom": "^18",
     "react-otp-input": "^3.1.1"
